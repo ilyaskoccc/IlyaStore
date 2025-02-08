@@ -6,10 +6,11 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone } from "lucide-react";
+import FooterLayout from "../layout/FooterLayout";
 
 function Footer() {
   return (
-    <div className="flex-col justify-items-center bg-[#252B42] text-white text-left">
+    <FooterLayout>
       <div className="flex justify-between items-center h-36 w-[1050px]">
         <div className="flex flex-col">
           <h3 className="font-bold text-[24px]">
@@ -101,7 +102,7 @@ function Footer() {
           />
         </div>
       </div>
-    </div>
+    </FooterLayout>
   );
 }
 
