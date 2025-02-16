@@ -64,7 +64,7 @@ export default function Footer() {
               <Link to="/">API</Link>
             </div>
           </div>
-          <div className="flex flex-col gap-3 py-5">
+          <div className="flex flex-col pb-6 gap-3">
             <h5 className="text-[16px]">Get In Touch</h5>
             <div className="flex flex-col gap-4 pt-3 text-[14px]">
               <div className="flex items-center gap-2">
