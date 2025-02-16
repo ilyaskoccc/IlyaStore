@@ -7,7 +7,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="container mx-auto">
+    <header>
       <nav className="px-4 py-8 md:px-0 flex justify-between md:justify-around items-center">
         <div>
           <Link to="/">

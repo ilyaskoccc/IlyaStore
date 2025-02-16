@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div className="relative">
+    <div className="container mx-auto">
       <Switch>
         <Route exact path="/">
           <HomePage />
