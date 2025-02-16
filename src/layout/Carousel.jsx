@@ -1,6 +1,9 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
+import slide1 from "../../images/burger.jpg";
+import slide2 from "../../images/pizza.jpg";
+import slide3 from "../../images/sandwich.jpg";
 
 export default function Carousel() {
   const history = useHistory();
@@ -8,7 +11,7 @@ export default function Carousel() {
   const slides = [
     {
       id: 1,
-      image: "../../images/burger.jpg",
+      image: slide1,
       subtitle: "GROCERIES DELIVERY",
       description:
         "We know how large objects will act, but things on a small scale.",
@@ -16,7 +19,7 @@ export default function Carousel() {
     },
     {
       id: 2,
-      image: "../../images/pizza.jpg",
+      image: slide2,
       subtitle: "GROCERIES DELIVERY",
       description:
         "We know how large objects will act, but things on a small scale.",
@@ -24,7 +27,7 @@ export default function Carousel() {
     },
     {
       id: 3,
-      image: "../../images/sandwich.jpg",
+      image: slide3,
       subtitle: "GROCERIES DELIVERY",
       description:
         "We know how large objects will act, but things on a small scale.",
