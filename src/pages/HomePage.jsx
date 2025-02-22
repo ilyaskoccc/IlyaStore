@@ -1,3 +1,4 @@
+import BestSellerProducts from "../components/BestSellerProducts";
 import Carousel from "../components/Carousel";
 import Explore from "../components/Explore";
 import IconList from "../components/IconList";
@@ -10,6 +11,7 @@ export default function HomePage() {
       <Header />
       <Carousel />
       <Explore />
+      <BestSellerProducts />
       <IconList />
       <Footer />
     </>
