@@ -72,7 +72,7 @@ export default function BestSellerProducts() {
   return (
     <div className="flex justify-center md:justify-between md:px-40 items-center flex-wrap md:flex-nowrap">
       <div className="md:w-150">
-        <div className="absolute flex flex-col p-10 font-bold text-[14px]/[24px]">
+        <div className="absolute flex flex-col p-10 font-bold text-[14px]/[24px] text-left">
           <h6 className="text-[#252B42]">FURNITURE</h6>
           <h6 className="text-[#737373]">5 Items</h6>
         </div>
