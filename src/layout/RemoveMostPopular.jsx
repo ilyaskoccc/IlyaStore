@@ -14,7 +14,7 @@ export default function RemoveMostPopular() {
     <>
       <div className="flex justify-center md:justify-between md:px-40 py-10 md:py-0 items-center flex-wrap-reverse md:flex-nowrap">
         <div className="flex flex-col">
-          <div className="justify-center items-center md:bg-[#FAFAFA] md:pt-15 md:pb-20">
+          <div className="justify-center items-center md:bg-[#FAFAFA] md:pt-5 md:pb-20">
             <div className="md:p-2 p-8">
               <h3 className="font-bold text-[24px]/[32px] text-[#252B42]">
                 MOST POPULAR
