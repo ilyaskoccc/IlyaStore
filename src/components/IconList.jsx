@@ -47,7 +47,7 @@ export default function IconList() {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row md:flex-wrap justify-center sm:justify-between gap-16 items-center py-20 md:px-24 bg-[#FAFAFA]">
+    <div className="flex flex-col md:flex-row md:flex-wrap justify-center sm:justify-between gap-16 items-center py-20 md:px-40 bg-[#FAFAFA]">
       {icons.map((icon) => (
         <Link to={icon.link} key={icon.id}>
           <div className="flex justify-center items-center">
