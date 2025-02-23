@@ -1,3 +1,4 @@
+import BestProducts from "../components/BestProducts";
 import BestSellerProducts from "../components/BestSellerProducts";
 import Carousel from "../components/Carousel";
 import Explore from "../components/Explore";
@@ -18,6 +19,7 @@ export default function HomePage() {
       <MostPopular />
       <RemoveBestSellerProducts />
       <RemoveMostPopular />
+      <BestProducts />
       <IconList />
       <Footer />
     </>
