@@ -70,7 +70,7 @@ export default function RemoveBestSellerProducts() {
   ];
 
   return (
-    <div className="flex justify-center md:justify-between md:px-40 md:py-5 items-center flex-wrap md:flex-nowrap">
+    <div className="flex justify-center md:justify-between md:px-40 md:py-5 items-center flex-wrap-reverse md:flex-nowrap">
       <div className="flex flex-col md:pb-34">
         <div className="flex flex-wrap justify-center items-center border-b-2 m-5 border-[#ECECEC]">
           <div className="font-bold text-[24px]/[32px] md:text-[16px]/[24px] text-[#252B42] py-10 md:py-0 md:px-10">
@@ -138,13 +138,17 @@ export default function RemoveBestSellerProducts() {
           ))}
         </div>
       </div>
-      <div className="md:w-150">
+      <div className="md:w-150 w-115">
         <div className="absolute flex flex-col p-10 font-bold text-[14px]/[24px] text-left">
           <h6 className="text-[#252B42]">FURNITURE</h6>
           <h6 className="text-[#737373]">5 Items</h6>
         </div>
 
-        <img src={cardProduct2} alt="card1" className="md:h-222 object-cover" />
+        <img
+          src={cardProduct2}
+          alt="card1"
+          className="md:h-222 h-170 object-cover"
+        />
       </div>
     </div>
   );

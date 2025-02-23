@@ -6,6 +6,7 @@ import RemoveBestSellerProducts from "../components/RemoveBestSellerProdcts";
 import Footer from "../layout/Footer";
 import Header from "../layout/Header";
 import MostPopular from "../layout/MostPopular";
+import RemoveMostPopular from "../layout/RemoveMostPopular";
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <BestSellerProducts />
       <MostPopular />
       <RemoveBestSellerProducts />
+      <RemoveMostPopular />
       <IconList />
       <Footer />
     </>
