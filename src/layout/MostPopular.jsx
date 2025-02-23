@@ -51,7 +51,7 @@ export default function MostPopular() {
               </h3>
             </div>
             <div className="md:p-2">
-              <p className="font-normal text-[14px]/[20px] text-[#737373] md:px-31 px-28">
+              <p className="font-normal text-[14px]/[20px] text-[#737373] md:px-31 px-32">
                 We focus on ergonomics and meeting you where you work. It's only
                 a keystroke away.
               </p>
