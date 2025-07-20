@@ -34,7 +34,7 @@ function LoginPage() {
                 noValidate
               >
                 <div className="mb-6 text-left">
-                  <h3 className="font-semibold mb-[10px] text-[#2f353e] text-[40px] tracking-tighter">
+                  <h3 className="font-semibold mb-[10px] text-[#2f353e] md:text-[40px] text-2xl tracking-tighter">
                     Log in to IlyaStore
                   </h3>
                   <p className="text-base text-[#6c757d]">
@@ -61,10 +61,10 @@ function LoginPage() {
                       },
                     })}
                     placeholder="example@example.com"
-                    className="w-full h-[60px] px-5 text-[17px] text-gray-800 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-400"
+                    className="w-full h-[60px] px-5 md:text-[17px] text-[14px] text-gray-800 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-400"
                   />
                   {errors.email && (
-                    <p className="text-[#e74c3c] text-[16px] font-normal mb-5 pl-2.5 text-left">
+                    <p className="text-[#e74c3c] md:text-[16px] text-[13px] font-normal mb-5 pl-2.5 text-left">
                       {errors.email.message}
                     </p>
                   )}
@@ -77,7 +77,7 @@ function LoginPage() {
                       required: "Please enter no less than (2) characters",
                     })}
                     placeholder="Password"
-                    className="w-full h-[60px] px-5 text-[17px] text-gray-800 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-400"
+                    className="w-full h-[60px] px-5 md:text-[17px] text-[14px] text-gray-800 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-400"
                   />
 
                   <span
@@ -88,7 +88,7 @@ function LoginPage() {
                   </span>
 
                   {errors.password && (
-                    <p className="text-[#e74c3c] text-[16px] font-normal mb-5 pl-2.5 text-left">
+                    <p className="text-[#e74c3c] md:text-[16px] text-[13px] font-normal mb-5 pl-2.5 text-left">
                       {errors.password.message}
                     </p>
                   )}
@@ -97,13 +97,13 @@ function LoginPage() {
                 <div className="mb-5">
                   <button
                     type="submit"
-                    className="w-full py-3 bg-[#0195ff] border-[1px] border-[#0195ff] hover:cursor-pointer hover:bg-white hover:text-black hover:border-black text-white rounded-md text-lg font-medium"
+                    className="w-full py-3 bg-[#0195ff] border-[1px] border-[#0195ff] hover:cursor-pointer hover:bg-white hover:text-black hover:border-black text-white rounded-md md:text-lg text-[16px] font-medium"
                   >
                     Log In
                   </button>
                 </div>
 
-                <div className="flex justify-around items-center mb-6 text-sm">
+                <div className="flex md:flex-row flex-col justify-around items-center mb-6 text-[16px] text-[#6c757d] font-medium leading-relaxed">
                   <label
                     className="flex items-center space-x-2"
                     htmlFor="remember"
@@ -128,8 +128,8 @@ function LoginPage() {
                 <div className="text-center mb-6">
                   <div className="relative inline-block text-[1.05rem] font-normal text-gray-600">
                     <span
-                      className="before:content-[''] before:absolute before:top-1/2 before:h-[2px] before:bg-black/10 before:right-[100%] before:left-[-300%] 
-                     after:content-[''] after:absolute after:top-1/2 after:h-[2px] after:bg-black/10 after:left-[100%] after:right-[-300%] 
+                      className="before:content-[''] before:absolute before:top-1/2 before:h-[2px] before:bg-black/10 md:before:left-[-322%] before:right-[100%] before:left-[-200%] 
+                     after:content-[''] after:absolute after:top-1/2 after:h-[2px] after:bg-black/10 after:left-[100%] md:after:right-[-322%] after:right-[-200%]
                      relative inline-block px-4"
                     >
                       OR
@@ -143,7 +143,7 @@ function LoginPage() {
               <CopyRightText />
             </div>
 
-            <div className="w-full lg:w-7/12">
+            <div className="w-full lg:w-7/12 hidden lg:block">
               <img
                 src={RegisterImage}
                 alt="register"

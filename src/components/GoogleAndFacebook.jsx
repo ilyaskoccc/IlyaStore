@@ -9,7 +9,7 @@ export default function GoogleAndFacebook() {
       <div className="mb-3">
         <a
           href="#"
-          className="flex items-center justify-center w-full py-3 border-[2px] text-[#333] text-[18px] font-medium border-[#ccc] rounded-md bg-white"
+          className="flex items-center justify-center w-full py-3 border-[2px] text-[#333] md:text-[18px] text-[16px] font-semibold border-[#ccc] rounded-md bg-white"
         >
           <img src={GoogleIcons} alt="google-icon" className="h-5 w-5 mr-2" />
           Sign in with Google
@@ -20,7 +20,7 @@ export default function GoogleAndFacebook() {
       <div>
         <a
           href="#"
-          className="flex items-center justify-center w-full py-3 border border-[#2d5c98] rounded-md bg-[#2d5c98] text-white text-[18px] font-medium"
+          className="flex items-center justify-center w-full py-3 border border-[#2d5c98] rounded-md bg-[#2d5c98] text-white md:text-[18px] text-[16px] font-semibold"
         >
           <img
             src={FacebookIcons}
