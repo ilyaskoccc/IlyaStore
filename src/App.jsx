@@ -3,6 +3,7 @@ import "./App.css";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
+import TermsPage from "./pages/TermsPage";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         </Route>
         <Route path="/register">
           <RegisterPage />
+        </Route>
+        <Route path="/terms">
+          <TermsPage />
         </Route>
       </Switch>
     </div>
