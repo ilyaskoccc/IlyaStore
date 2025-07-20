@@ -54,7 +54,9 @@ export default function Header() {
           </div>
         </div>
         <div className="flex gap-8 md:hidden">
-          <User className="transition-transform duration-300 hover:scale-110" />
+          <Link to="/login">
+            <User className="transition-transform duration-300 hover:scale-110" />
+          </Link>
           <Search className="transition-transform duration-300 hover:scale-110" />
           <ShoppingCart className="transition-transform duration-300 hover:scale-110" />
 
